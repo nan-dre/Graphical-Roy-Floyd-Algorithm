@@ -1,12 +1,12 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFML project - Roy-Floyd.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Source.cpp
-d:\proiecte\visual studio c++\sfml project - dijkstra\sfml project - dijkstra\source.cpp(204): warning C4018: '<': signed/unsigned mismatch
-d:\proiecte\visual studio c++\sfml project - dijkstra\sfml project - dijkstra\source.cpp(208): warning C4018: '<': signed/unsigned mismatch
-d:\proiecte\visual studio c++\sfml project - dijkstra\sfml project - dijkstra\source.cpp(210): warning C4018: '<': signed/unsigned mismatch
-d:\proiecte\visual studio c++\sfml project - dijkstra\sfml project - dijkstra\source.cpp(226): warning C4018: '<': signed/unsigned mismatch
-d:\proiecte\visual studio c++\sfml project - dijkstra\sfml project - dijkstra\source.cpp(245): warning C4018: '<': signed/unsigned mismatch
-d:\proiecte\visual studio c++\sfml project - dijkstra\sfml project - dijkstra\source.cpp(247): warning C4018: '<': signed/unsigned mismatch
-d:\proiecte\visual studio c++\sfml project - dijkstra\sfml project - dijkstra\source.cpp(250): warning C4018: '<': signed/unsigned mismatch
-d:\proiecte\visual studio c++\sfml project - dijkstra\sfml project - dijkstra\source.cpp(314): warning C4018: '<=': signed/unsigned mismatch
-d:\proiecte\visual studio c++\sfml project - dijkstra\sfml project - dijkstra\source.cpp(315): warning C4018: '<=': signed/unsigned mismatch
-  SFML project - Dijkstra.vcxproj -> D:\Proiecte\Visual studio C++\SFML project - Dijkstra\Debug\SFML project - Dijkstra.exe
+d:\proiecte\powerpoint\roy-floyd grafic\sfml project - dijkstra\sfml project - dijkstra\source.cpp(204): warning C4018: '<': signed/unsigned mismatch
+d:\proiecte\powerpoint\roy-floyd grafic\sfml project - dijkstra\sfml project - dijkstra\source.cpp(208): warning C4018: '<': signed/unsigned mismatch
+d:\proiecte\powerpoint\roy-floyd grafic\sfml project - dijkstra\sfml project - dijkstra\source.cpp(210): warning C4018: '<': signed/unsigned mismatch
+d:\proiecte\powerpoint\roy-floyd grafic\sfml project - dijkstra\sfml project - dijkstra\source.cpp(226): warning C4018: '<': signed/unsigned mismatch
+d:\proiecte\powerpoint\roy-floyd grafic\sfml project - dijkstra\sfml project - dijkstra\source.cpp(245): warning C4018: '<': signed/unsigned mismatch
+d:\proiecte\powerpoint\roy-floyd grafic\sfml project - dijkstra\sfml project - dijkstra\source.cpp(247): warning C4018: '<': signed/unsigned mismatch
+d:\proiecte\powerpoint\roy-floyd grafic\sfml project - dijkstra\sfml project - dijkstra\source.cpp(250): warning C4018: '<': signed/unsigned mismatch
+d:\proiecte\powerpoint\roy-floyd grafic\sfml project - dijkstra\sfml project - dijkstra\source.cpp(314): warning C4018: '<=': signed/unsigned mismatch
+d:\proiecte\powerpoint\roy-floyd grafic\sfml project - dijkstra\sfml project - dijkstra\source.cpp(315): warning C4018: '<=': signed/unsigned mismatch
+  SFML project - Dijkstra.vcxproj -> D:\Proiecte\PowerPoint\Roy-Floyd grafic\SFML project - Dijkstra\Debug\SFML project - Dijkstra.exe

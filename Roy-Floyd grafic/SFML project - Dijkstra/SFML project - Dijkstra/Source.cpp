@@ -104,7 +104,7 @@ void draw_direction_store_in_vector(int i, int j, sf::Color color, std::vector<s
 	circle.setPointCount(100);
 	circle.setFillColor(color);
 	float slope2 = atan2(pos[j].y - pos[i].y, pos[j].x - pos[i].x);
-	int offset = 20;
+	int offset = 22;
 	circle.setPosition(pos[j].x - offset * cos(slope2), pos[j].y - offset * sin(slope2));
 	circle.setOrigin(radius, radius);
 	vector.push_back(circle);
@@ -242,32 +242,32 @@ int main()
 		if (initialize) //Roy-Floyd
 		{
 			int i, j, k;
-			for (i = 0; i < nodes.size(); i++)
+			for (k = 0; k < nodes.size(); k++)
 			{
-				for (j = 0; j < nodes.size(); j++)
+				for (i = 0; i < nodes.size(); i++)
 				{
 
-					for (k = 0; k < nodes.size(); k++)
+					for (j = 0; j < nodes.size(); j++)
 					{
 						window.clear(sf::Color::White);
 
 						//set temporary values for the current frame
 
-						draw_edge_store_in_vector(i, k, sf::Color::Green, temp_edges);
-						draw_edge_store_in_vector(k, j, sf::Color::Green, temp_edges);
+						draw_edge_store_in_vector(i, k, sf::Color::Blue, temp_edges);
+						draw_edge_store_in_vector(k, j, sf::Color::Blue, temp_edges);
 						draw_edge_store_in_vector(i, j, sf::Color::Red, temp_edges);
 						if (i != j && i != k && k != j)
 						{
-							draw_direction_store_in_vector(i, k, sf::Color::Green, temp_directions);
-							draw_direction_store_in_vector(k, j, sf::Color::Green, temp_directions);
+							draw_direction_store_in_vector(i, k, sf::Color::Blue, temp_directions);
+							draw_direction_store_in_vector(k, j, sf::Color::Blue, temp_directions);
 							draw_direction_store_in_vector(i, j, sf::Color::Red, temp_directions);
 						}
 						nodes[i].setOutlineColor(sf::Color::Red);
 						nodes[j].setOutlineColor(sf::Color::Red);
-						nodes[k].setOutlineColor(sf::Color::Green);
-						nodes[i].setOutlineThickness(5.0f);
-						nodes[j].setOutlineThickness(5.0f);
-						nodes[k].setOutlineThickness(5.0f);
+						nodes[k].setOutlineColor(sf::Color::Blue);
+						nodes[i].setOutlineThickness(3.0f);
+						nodes[j].setOutlineThickness(3.0f);
+						nodes[k].setOutlineThickness(3.0f);
 
 						draw_graph();
 
@@ -319,9 +319,9 @@ int main()
 
 							if (a[i][j] != b[i][j])
 							{
-								draw_costs_store_in_vector(i, j, a, sf::Color::Green);
+								draw_costs_store_in_vector(i, j, a, sf::Color::Blue);
 								draw_edge_store_in_vector(i, j, sf::Color::Red, edges);
-								draw_direction_store_in_vector(i, j, sf::Color::Green, directions);
+								draw_direction_store_in_vector(i, j, sf::Color::Blue, directions);
 
 							}
 							else
