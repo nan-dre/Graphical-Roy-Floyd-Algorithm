@@ -1,0 +1,8 @@
+Script:
+
+Day 1: - cat timp e fereastra deschisa
+       - sfml are o clasa numita Event, 
+care verifica daca s-a intamplat vreun 
+eveniment de la ultima iteratie a programului
+	- de exemplu daca apas pe click stanga
+	-explica functiile
