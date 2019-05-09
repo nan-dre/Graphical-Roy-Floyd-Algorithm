@@ -93,7 +93,7 @@ void draw_costs_store_in_vector(int i, int j, int mat[101][101], sf::Color color
 	cost.setCharacterSize(30);
 	cost.setFillColor(color);
 	cost.setOrigin(7.f, 19.f);
-	cost.setPosition(pos[i].x + (3 * (pos[j].x - pos[i].x) / 4), pos[i].y + (3 * (pos[j].y - pos[i].y) / 4));
+	cost.setPosition(pos[i].x + (4 * (pos[j].x - pos[i].x) / 5), pos[i].y + (4 * (pos[j].y - pos[i].y) / 5));
 	costs.push_back(cost);
 }
 
@@ -154,11 +154,11 @@ int main()
 {
 	float timp;
 	float timp2;
-	std::cout << "Interpretare grafica a algoritmului Roy-Floyd\n";
-	std::cout << "Instructiuni:\n" << "1. In fisierul numit muchii.txt din folderul resurse, specificati numarul de muchii, urmat de acele muchii care se vor afla in graful cu costuri orientat. \n";
-	std::cout << "2.  Desenati pe ecran nodurile grafului folosind click stanga.\n";
-	std::cout << "3. Apasati tasta m pentru a desena muchiile pe ecran.\n";
-	std::cout << "4. Apasati tasta Enter de doua ori pentru a rula algoritmul.\n\n";
+	//std::cout << "Interpretare grafica a algoritmului Roy-Floyd\n";
+	//std::cout << "Instructiuni:\n" << "1. In fisierul numit muchii.txt din folderul resurse, specificati numarul de muchii, urmat de acele muchii care se vor afla in graful cu costuri orientat. \n";
+	//std::cout << "2.  Desenati pe ecran nodurile grafului folosind click stanga.\n";
+	//std::cout << "3. Apasati tasta m pentru a desena muchiile pe ecran.\n";
+	//std::cout << "4. Apasati tasta Enter de doua ori pentru a rula algoritmul.\n\n";
 	std::cout << "Care va fi timpul de rulare al algoritmului? ";
 	std::cin >> timp;
 	std::cout << "Care va fi timpul de asteptare la gasirea unei solutii? ";
